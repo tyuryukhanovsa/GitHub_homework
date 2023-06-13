@@ -1,7 +1,7 @@
 def capital(letters):
     """Принимает строку и возвращает все загланые буквы
     """
-    return letters.upper()
+    print(letters.upper())
 
 
 def capital_first(letters):
@@ -9,4 +9,4 @@ def capital_first(letters):
     делает заглавными первые буквы
     каждого слова в строке
     """
-    return letters.title()
+    print(letters.title())
